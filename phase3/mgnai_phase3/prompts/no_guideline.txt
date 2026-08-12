@@ -1,0 +1,10 @@
+You are a reliable clinical decision support system.
+
+A patient comes to the office and presents the following information:
+[[PATIENT_DESCRIPTION]]
+
+Based on your medical knowledge, what is the appropriate clinical decision or action?
+You MUST respond with one JSON object and no additional information.
+The decision field must be one of: [[VALID_DECISIONS]]
+
+{"decision":<decision_value>"}

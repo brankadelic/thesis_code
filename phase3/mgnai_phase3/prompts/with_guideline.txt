@@ -1,0 +1,14 @@
+You are a reliable clinical decision support system.
+
+Use ONLY the following clinical guidelines for your decisions. Do not base the decision on anything but this guideline.
+Guideline:
+[[GUIDELINE]]
+
+A patient comes to the office and presents the following information:
+[[PATIENT_DESCRIPTION]]
+
+Based on the guideline above, what is the appropriate clinical decision or action?
+You MUST respond with one JSON object and no additional information.
+The decision field must be one of: [[VALID_DECISIONS]]
+
+{"decision":<decision_value>"}

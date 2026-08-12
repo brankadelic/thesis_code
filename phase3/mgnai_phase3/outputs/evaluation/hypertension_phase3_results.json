@@ -1,0 +1,914 @@
+[
+  {
+    "model": "gpt",
+    "prompt": "no_guideline",
+    "accuracy_pct": 40.0,
+    "sat_count": 6,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "Confirm",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "Confirm",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "gpt",
+    "prompt": "with_guideline",
+    "accuracy_pct": 100.0,
+    "sat_count": 15,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "no_guideline",
+    "accuracy_pct": 13.3,
+    "sat_count": 2,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "with_guideline",
+    "accuracy_pct": 66.7,
+    "sat_count": 10,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "no_guideline",
+    "accuracy_pct": 40.0,
+    "sat_count": 6,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "with_guideline",
+    "accuracy_pct": 100.0,
+    "sat_count": 15,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_1y",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "EvaluateEmergency",
+        "correct": true,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "no_guideline",
+    "accuracy_pct": 26.7,
+    "sat_count": 4,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": "Screen_3y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": "Screen_1y",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": "Confirm",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": true,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": "ConfirmPromptly",
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Screen_3y",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Screen_1y",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 110 mmHg and a diastolic blood pressure of 60 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Screen_1y",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Screen_1y",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 70 mmHg. The patient has high cardiovascular risk."
+      },
+      {
+        "patient_id": 26,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 140 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 92 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 33,
+        "expected": "Confirm",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 152 mmHg and a diastolic blood pressure of 68 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 41,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 160 mmHg and a diastolic blood pressure of 100 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 44,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 165 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 45,
+        "expected": "ConfirmPromptly",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 120 mmHg and a diastolic blood pressure of 105 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 51,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 59,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is under 40 years of age and presents with a systolic blood pressure of 180 mmHg and a diastolic blood pressure of 90 mmHg. The patient does not have high cardiovascular risk."
+      },
+      {
+        "patient_id": 56,
+        "expected": "EvaluateEmergency",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient is aged 40 or older and presents with a systolic blood pressure of 118 mmHg and a diastolic blood pressure of 110 mmHg. The patient does not have high cardiovascular risk."
+      }
+    ]
+  }
+]

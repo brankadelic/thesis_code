@@ -1,0 +1,1586 @@
+[
+  {
+    "model": "gpt",
+    "prompt": "no_guideline",
+    "accuracy_pct": 63.0,
+    "sat_count": 17,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": "Group3",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "gpt",
+    "prompt": "with_guideline",
+    "accuracy_pct": 77.8,
+    "sat_count": 21,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": "Group3",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "no_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "no_guideline",
+    "accuracy_pct": 55.6,
+    "sat_count": 15,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": "Group3",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": "Group2",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "with_guideline",
+    "accuracy_pct": 88.9,
+    "sat_count": 24,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": "Group3",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": "Group3",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": "Group1",
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": "Group2",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": "Group1",
+        "correct": true,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "no_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 27,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 9 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 14,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 7.1 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 15,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 29 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 16,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 30 breaths per minute. Blood pressure is 120/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 17,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 18,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 19,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 20,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 85/55 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 8 out of 10. Blood urea is 8.0 mmol/L. Respiratory rate is 32 breaths per minute. Blood pressure is 120/80 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 41,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 5 out of 10. Blood urea is 10.0 mmol/L. Respiratory rate is 35 breaths per minute. Blood pressure is 85/70 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 42,
+        "expected": "Group3",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 3 out of 10. Blood urea is 12.0 mmol/L. Respiratory rate is 40 breaths per minute. Blood pressure is 80/50 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 51,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 6 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 18 breaths per minute. Blood pressure is 130/75 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 52,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 4.0 mmol/L. Respiratory rate is 34 breaths per minute. Blood pressure is 82/55 mmHg. The patient is younger than 65 years of age."
+      },
+      {
+        "patient_id": 61,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/61 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 62,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 63,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 120/59 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 64,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 65,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 89/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 66,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 91/80 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 67,
+        "expected": "Group2",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/60 mmHg. The patient is 65 years of age or older."
+      },
+      {
+        "patient_id": 68,
+        "expected": "Group1",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient has an Abbreviated Mental Test Score (AMTS) of 10 out of 10. Blood urea is 5.0 mmol/L. Respiratory rate is 16 breaths per minute. Blood pressure is 90/61 mmHg. The patient is 65 years of age or older."
+      }
+    ]
+  }
+]

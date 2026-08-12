@@ -1,0 +1,1194 @@
+[
+  {
+    "model": "gpt",
+    "prompt": "no_guideline",
+    "accuracy_pct": 85.0,
+    "sat_count": 17,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "gpt",
+    "prompt": "with_guideline",
+    "accuracy_pct": 95.0,
+    "sat_count": 19,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "no_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "no_guideline",
+    "accuracy_pct": 80.0,
+    "sat_count": 16,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "with_guideline",
+    "accuracy_pct": 70.0,
+    "sat_count": 14,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "RepeatUltrasoundIn1Week",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "ExcludeDVT",
+        "correct": true,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": true,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "no_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": "TreatAnticoagulation",
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 20,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 2,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 3,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 4,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 11,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 12,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 13,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Positive."
+      },
+      {
+        "patient_id": 14,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 21,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 22,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 23,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 24,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 25,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is present. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 26,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 27,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is present. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 28,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is present. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 29,
+        "expected": "RepeatUltrasoundIn1Week",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are present. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 31,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is present. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Positive. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 32,
+        "expected": "ExcludeDVT",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is absent. Paralysis, paresis, or recent plaster immobilization of the lower extremities is absent. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is absent. Localized tenderness along the deep venous system is absent. Swelling of the entire leg is absent. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is present. The D-dimer test result is Negative. The compression ultrasound result is Negative."
+      },
+      {
+        "patient_id": 41,
+        "expected": "TreatAnticoagulation",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "Active cancer is present. Paralysis, paresis, or recent plaster immobilization of the lower extremities is present. Recent bedridden status of more than 3 days or major surgery within the previous 12 weeks is present. Localized tenderness along the deep venous system is present. Swelling of the entire leg is present. Calf swelling more than 3 cm larger than the asymptomatic side is absent. Pitting edema confined to the symptomatic leg is absent. Collateral superficial (nonvaricose) veins are absent. A previously documented DVT is absent. An alternative diagnosis at least as likely as DVT is absent. The D-dimer test result is Negative. The compression ultrasound result is Positive."
+      }
+    ]
+  }
+]

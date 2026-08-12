@@ -1,0 +1,914 @@
+[
+  {
+    "model": "gpt",
+    "prompt": "no_guideline",
+    "accuracy_pct": 53.3,
+    "sat_count": 8,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "gpt",
+    "prompt": "with_guideline",
+    "accuracy_pct": 100.0,
+    "sat_count": 15,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "no_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "claude",
+    "prompt": "with_guideline",
+    "accuracy_pct": 20.0,
+    "sat_count": 3,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "no_guideline",
+    "accuracy_pct": 33.3,
+    "sat_count": 5,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "gemini",
+    "prompt": "with_guideline",
+    "accuracy_pct": 93.3,
+    "sat_count": 14,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": "AlternativeDiagnosis",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "no_guideline",
+    "accuracy_pct": 6.7,
+    "sat_count": 1,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": "Asthma",
+        "correct": true,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  },
+  {
+    "model": "llama",
+    "prompt": "with_guideline",
+    "accuracy_pct": 0.0,
+    "sat_count": 0,
+    "total": 15,
+    "patients": [
+      {
+        "patient_id": 1,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 2,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 3,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is elevated and a FeNO level of 55.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 4,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 50.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 11,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 12,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 11.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 13,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 12.0% and 200.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 21,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 22.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 22,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 20.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 31,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 32,
+        "expected": "Asthma",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is present."
+      },
+      {
+        "patient_id": 41,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 13.0% and 150.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 42,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 210.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 0.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 51,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is available. FEV1 increase is 5.0% and 100.0 ml, with a predicted FEV1 increase of 5.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      },
+      {
+        "patient_id": 52,
+        "expected": "AlternativeDiagnosis",
+        "decision_of_the_model": null,
+        "correct": false,
+        "narrative": "The patient presents with a blood eosinophil count that is not elevated and a FeNO level of 30.0 ppb. Spirometry is not available. FEV1 increase is 0.0% and 0.0 ml, with a predicted FEV1 increase of 0.0%. PEF variability is 10.0%. Bronchial hyperresponsiveness is not present."
+      }
+    ]
+  }
+]
