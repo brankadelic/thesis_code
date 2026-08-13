@@ -1,0 +1,26 @@
+CURB-65 community-acquired pneumonia severity
+
+In order to identify the severity of community-acquired pneumonia (CAP), a severity assessment tool was proposed by the British Thoracic Society and later, for simplicity, modified. The tool was developed mainly as a means of identifying patients with severe CAP at high risk of mortality. It relies on four easily measurable clinical features: mental confusion, respiratory rate, diastolic blood pressure, and blood urea. These features enable the tool to stratify the patients with CAP into mortality risk groups.
+
+These features are used as threshold values; the "CURB" severity score is calculated by measuring:
+	•	Mental Confusion - measured by the Abbreviated Mental Test Score (AMTS) (assessment scales in dementia reference) is a 10-item scale assessing orientation, registration, recall, and concentration. If the result of the test is 9 or less, it counts as one point.
+	•	Blood Urea - reveals how well the kidney is working. If in this case the Blood Urea scores > 7.5 mmol/l, it is considered a point
+	•	Respiratory rate - the number of breaths a person takes per minute, measured at rest. If higher than or equal to 31/min, it is considered one positive point.
+	•	Low Blood Pressure - diastolic blood preassure =< 62 mm Hg or systolic blood pressure < 92 mm Hg scores one point.
+
+In addition, tests showed that age contributes a lot, so if the patient is 65 or older, it gives an additional 1 point.
+
+For each feature, one point is given. Based on the score, the risk group is assessed.
+
+Score 0 or 1 -> GROUP 1 - Mortality low 1.5%
+Score 2 -> GROUP 2 - Mortality intermediate 9.2%
+Score 3 or more-> GROUP 3 - Mortality high 22%
+
+The following treatment options are suggested per group:
+GROUP 1 - Likely suitable for home treatment
+GROUP 2 - Consider hospital-supervised treatment: either short stay inpatient or hospital-supervised outpatient
+GROUP 3 - Manage in hospital as severe pneumonia; assess for ICU admission, especially if CURB-65 score = 4 or 5
+
+Modeling assumptions used for this experiment:
+Numeric input: confusion, urea_above_7, resp_rate_ge_30, systolic, diastolic
+Boolean input: age_ge_65

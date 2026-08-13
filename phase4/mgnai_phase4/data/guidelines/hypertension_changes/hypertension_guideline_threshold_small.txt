@@ -1,0 +1,32 @@
+Guidelines segment used in this experiment:
+
+Protocol for confirming hypertension diagnosis by office Blood Preassure. Classifying the Blood Pressure and recommending clinical actions.
+*BP is an abbreviation for Blood Pressure
+*mmHg is the standard unit of measurement for blood pressure, and stands for millimeters of mercury
+
+Non-elevated Blood Pressure: Systolic BP < 122 mmHg AND Diastolic BP < 72.
+
+Elevated Blood Pressure: Systolic BP 122–144 AND/OR Diastolic BP 72–92, provided the patient does not meet criteria for hypertension.
+
+Grade 1 hypertension: Systolic BP 145–164 AND/OR Diastolic BP 93–102, provided the patient does not meet criteria for Grade 2 or Severe hypertension.
+
+Grade 2 hypertension: Systolic BP 165–184 AND/OR Diastolic BP 103–112, provided the patient does not meet criteria for Severe hypertension.
+
+Severe hypertension: Systolic BP ≥ 185 AND/OR Diastolic BP ≥ 113.
+
+Blood pressure category is determined according to the highest applicable category.
+
+
+Recommended actions:
+	•	If BP is Non-elevated and the patient is younger than 40 years, recommend opportunistic BP screening at least every 3 years. 
+	•	If BP is Non-elevated and the patient is 40 years or older, recommend opportunistic BP screening at least every year. 
+	•	If BP is Elevated and the patient has a High Cardiovascular Risk, confirm the BP preferably with either home or ambulatory BP measurements.
+	•	If BP is Elevated and the patient does not have a High Cardiovascular Risk, recommend opportunistic BP screening at least every year.
+	•	If BP is Grade 1 hypertension, confirm the BP preferably with either home or ambulatory BP measurements.
+	•	If BP is Grade 2 hypertension,  confirm the BP promptly, preferably with either home or ambulatory BP measurements.
+	•	If BP is Severe hypertension, recommend evaluation for hypertensive emergency.
+
+Modeling assumptions used for this experiment:
+	•	high_cvd_risk is given as an input boolean.
+	•	age_ge_40 is given as an input Boolean.
+	•	Only office blood pressure screening and action assignment are modeled.

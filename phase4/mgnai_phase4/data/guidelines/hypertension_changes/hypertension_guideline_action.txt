@@ -1,0 +1,32 @@
+Guidelines segment used in this experiment:
+
+Protocol for confirming hypertension diagnosis by office Blood Preassure. Classifying the Blood Pressure and recommending clinical actions.
+*BP is an abbreviation for Blood Pressure
+*mmHg is the standard unit of measurement for blood pressure, and stands for millimeters of mercury
+
+Non-elevated Blood Pressure: Systolic BP < 120 mmHg AND Diastolic BP < 70.
+
+Elevated Blood Pressure: Systolic BP 120–139 AND/OR Diastolic BP 70–89, provided the patient does not meet criteria for hypertension.
+
+Grade 1 hypertension: Systolic BP 140–159 AND/OR Diastolic BP 90–99, provided the patient does not meet criteria for Grade 2 or Severe hypertension.
+
+Grade 2 hypertension: Systolic BP 160–179 AND/OR Diastolic BP 100–109, provided the patient does not meet criteria for Severe hypertension.
+
+Severe hypertension: Systolic BP ≥ 180 AND/OR Diastolic BP ≥ 110.
+
+Blood pressure category is determined according to the highest applicable category.
+
+
+Recommended actions:
+	•	If BP is Non-elevated and the patient is younger than 40 years, recommend evaluation for hypertensive emergency. 
+	•	If BP is Non-elevated and the patient is 40 years or older, recommend evaluation for hypertensive emergency.
+	•	If BP is Elevated and the patient has a High Cardiovascular Risk, recommend opportunistic BP screening at least every 3 years.
+	•	If BP is Elevated and the patient does not have a High Cardiovascular Risk, recommend evaluation for hypertensive emergency.
+	•	If BP is Grade 1 hypertension, recommend opportunistic BP screening at least every 3 years.
+	•	If BP is Grade 2 hypertension,  recommend opportunistic BP screening at least every 3 years.
+	•	If BP is Severe hypertension, recommend opportunistic BP screening at least every 3 years.
+
+Modeling assumptions used for this experiment:
+	•	high_cvd_risk is given as an input boolean.
+	•	age_ge_40 is given as an input Boolean.
+	•	Only office blood pressure screening and action assignment are modeled.

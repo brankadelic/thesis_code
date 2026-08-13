@@ -1,0 +1,47 @@
+Guidelines segment used in this experiment:
+
+Protocol for diagnosing asthma in adults and young people (aged over 16 years) with a history suggesting asthma.
+
+Asthma diagnosis is based on a sequence of objective tests; a positive test at any stage confirms asthma.
+
+1. First-line test: Biomarkers
+
+Measure either the blood eosinophil count or fractional exhaled nitric oxide (FeNO) levels in a patient.
+Diagnose asthma if:
+	•	the eosinophil count is above the laboratory reference range OR
+	•	FeNO level is >= 50 ppb
+
+*Parts per billion (ppb) measures extremely low concentrations
+entrations of a substance, representing 1 part solute per 1,000,000,000 parts solvent
+
+2. Second-line test: Bronchodilator reversibility (BDR)
+
+If asthma is not confirmed by the biomarkers, spirometry is performed, and bronchodilator reversibility is measured. 
+Diagnose asthma if: 
+	•	FEV1 increase is 12% or more AND 200 ml or more from the pre-bronchodilator measurement; OR
+	•	FEV1 increase is 10% or more than the predicted FEV1
+
+*FEV1-The amount of air that can be forcibly exhaled from the lungs in one second (forced expiratory volume in one second).
+
+3. Third-line tests: Peak Expiratory Flow variability (PEF):
+
+If spirometry is not available or is delayed, measure peak expiratory flow (PEF) over time.
+Diagnose asthma if:
+	•	PEF variability is >=20%
+
+4. Final-line test: Bronchial Challenge test
+If asthma is not confirmed by previous tests, but is still suspected on clinical grounds, do a bronchial challenge test. 
+Diagnose asthma if:
+	•	bronchial hyperresponsiveness is present.
+Diagnostic rule:
+	•	Asthma is diagnosed if any test is positive
+	•	If all tests are negative, consider an alternative diagnosis
+Modeling assumptions used for this experiment:
+	•	eosinophils_high is given as a Boolean input
+	•	feNo_level is a numeric input
+	•	spirometry_available is given as a Boolean input
+	•	fev1_increase_percent, fev1_increase_ml, and fev1_predicted_increase_percent are numeric inputs
+	•	pef_variability_percent is a numeric input
+	•	bronchial_hyperresponsiveness is given as a Boolean input
+	•	Only objective diagnostic testing is modeled (no clinical symptoms or treatment decisions)
+
