@@ -1,0 +1,22 @@
+CURB-65 community-acquired pneumonia severity
+
+To identify the severity of community-acquired pneumonia (CAP), the British Thoracic Society proposed a severity assessment tool, later modified for simplicity. The tool was developed mainly as a means of identifying patients with severe CAP at high risk of mortality.  It relies on four easily measurable clinical features: mental confusion, respiratory rate, diastolic blood pressure, and blood urea. These features enable the tool to stratify the patients with CAP into mortality risk groups. 
+
+These features are used as threshold values; the “CURB” severity score is calculated by measuring:
+	•	Mental Confusion - measured by the Abbreviated Mental Test Score (AMTS) (assessment scales in dementia reference), a 10-item scale assessing orientation, registration, recall, and concentration.  If the test result is 8 or less, it counts as one point.
+	•	Blood Urea - reveals how well the kidney is working. If in this case the Blood Urea scores > 7 mmol/l, it is considered a point 
+	•	Respiratory rate - the number of breaths a person takes per minute, measured at rest. If higher than or equal to 30/min, it is considered one positive point. 
+	•	Low Blood Pressure - diastolic blood preassure =< 60 mm Hg or systolic blood pressure < 90 mm Hg scores one point.
+
+In addition, age contributes a lot, so if the patient is 65 or older, it adds 1 point. 
+
+Each feature is worth 1 point. Based on the score, the risk group is assessed. 
+
+Score 0 or 1 -> GROUP 1 - Mortality low 1.5% 
+Score 2 -> GROUP 2 - Mortality intermediate 9.2%
+Score 3 or more-> GROUP 3 - Mortality high 22%
+
+The following treatment options are suggested per group:
+GROUP 1 - Likely suitable for home treatment
+GROUP 2 - Consider hospital-supervised treatment: either short-stay inpatient or hospital-supervised outpatient
+GROUP 3 - Manage in hospital as severe pneumonia; assess for ICU admission, especially if CURB-65 score = 4 or 5
